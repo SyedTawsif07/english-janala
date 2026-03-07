@@ -104,7 +104,8 @@
     </section>
 
 
-    <section>
+    <!-- Lesson Buttons -->
+    <section class="mb-8">
         <h2 class="text-4xl font-bold mb-8 text-center">
             <span class="text-sky-500">Let's</span>
             Learn Vocabularies
@@ -113,10 +114,24 @@
         <div id="level-container" class="flex flex-wrap gap-5 justify-center"></div>
     </section>
 
+    <!-- search section -->
+    <section class="flex justify-center">
+        <div class="join">
+            <div>
+                <label class="input validator join-item">
+                    <input id="input-search" type="text" placeholder="Search Vocabulary Now" required class="outline-0" />
+                </label>
+            </div>
+            <button id="btn-search" class="btn btn-primary join-item">Search</button>
+        </div>
+    </section>
+
+    <!-- Spinner Section -->
     <section id="spinner" class="flex justify-center items-center py-10 hidden">
         <span class="loading loading-dots loading-xl"></span>
     </section>
 
+    <!-- Word Container -->
     <section id="word-container" class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid grid-cols-3 gap-5">
 
 
